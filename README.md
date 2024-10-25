@@ -2,14 +2,7 @@
 
 # TabTPS
 
-TabTPS is a Minecraft mod that adds server performance information to the player list (Tab menu) header and footer. It displays TPS (Ticks per Second), ping, and MSPT (Milliseconds per Tick) and allows players' nickname colors to change based on the current dimension.
-
-## Mod Features
-
-- **TPS and MSPT** — shows current server performance as TPS and MSPT.
-- **Ping** — displays each player's ping.
-- **Nickname color** — changes player nickname color based on the dimension if enabled in the config.
-- **Custom placeholders** — allows dynamic values in the header and footer.
+TabTPS is a Minecraft mod that adds server performance information to the player list (Tab menu) header and footer.
 
 ## Placeholders
 
