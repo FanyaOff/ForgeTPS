@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: tabtps
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: TabTPS
+Implementation-Version: 1.0
+Implementation-Vendor: 
+Implementation-Timestamp: 2024-10-25T22:17:00+0300
+
