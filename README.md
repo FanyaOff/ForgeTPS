@@ -1,4 +1,4 @@
-[RU](https://example.com/ru) | [EN](https://example.com/en)
+[RU](https://github.com/FanyaOff/TabTPS/blob/main/README_RU.md) | [EN](https://github.com/FanyaOff/TabTPS/blob/main/README.md)
 
 # TabTPS
 
