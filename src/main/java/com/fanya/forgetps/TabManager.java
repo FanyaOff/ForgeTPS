@@ -1,4 +1,4 @@
-package com.fanya.tabtps;
+package com.fanya.forgetps;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.game.ClientboundTabListPacket;

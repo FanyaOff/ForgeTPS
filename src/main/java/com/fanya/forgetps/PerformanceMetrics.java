@@ -1,11 +1,4 @@
-package com.fanya.tabtps;
-
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.chat.TextColor;
-import org.stringtemplate.v4.ST;
-
-import java.util.Queue;
-import java.util.concurrent.ConcurrentLinkedQueue;
+package com.fanya.forgetps;
 
 public class PerformanceMetrics {
     public static float sumTickTime = 0.0f;

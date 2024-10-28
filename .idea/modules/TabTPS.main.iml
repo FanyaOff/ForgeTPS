@@ -13,7 +13,7 @@
     </facet>
   </component>
   <component name="McpModuleSettings">
-    <option name="mappingFile" value="E:\projects\TabTPS\build\createMcpToSrg\output.tsrg" />
+    <option name="mappingFile" value="E:\projects\TabTPS\TabTPS\build\createMcpToSrg\output.tsrg" />
     <option name="mcpVersion" value="official_1.19.2" />
     <option name="minecraftVersion" value="1.19.2" />
     <option name="platformVersion" value="43.3.13" />

@@ -1,32 +1,28 @@
-package com.fanya.tabtps;
+package com.fanya.forgetps;
 
 import com.mojang.logging.LogUtils;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.scores.PlayerTeam;
 import net.minecraft.world.scores.Scoreboard;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
-import static com.fanya.tabtps.TabManager.updateTabList;
+import static com.fanya.forgetps.TabManager.updateTabList;
 
-@Mod(TabTPS.MODID)
-public class TabTPS {
-    public static final String MODID = "tabtps";
+@Mod(ForgeTPS.MODID)
+public class ForgeTPS {
+    public static final String MODID = "forgetps";
     public static final Logger LOGGER = LogUtils.getLogger();
 
 
-    public TabTPS(){
+    public ForgeTPS(){
         MinecraftForge.EVENT_BUS.register(this);
         ModConfig.loadConfig();
     }
@@ -57,7 +53,7 @@ public class TabTPS {
         Scoreboard scoreboard = player.getLevel().getScoreboard();
         String dimensionName = player.getLevel().dimension().location().toString();
 
-        String teamName = "defaultTeam";
+        String teamName = "d_"+dimensionName;
         ChatFormatting color = ChatFormatting.WHITE;
 
         if (ModConfig.enableNicknameColorChange) {

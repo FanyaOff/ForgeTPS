@@ -1,4 +1,4 @@
-package com.fanya.tabtps;
+package com.fanya.forgetps;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -22,7 +22,7 @@ public class ModConfig {
     public static Map<String, ChatFormatting> customDimensionsColors = new HashMap<>();
 
     private static final Gson GSON = new Gson();
-    private static final Path CONFIG_PATH = FMLPaths.CONFIGDIR.get().resolve("tabtps.json");
+    private static final Path CONFIG_PATH = FMLPaths.CONFIGDIR.get().resolve("forgetps.json");
 
     public static void loadConfig() {
         try (FileReader reader = new FileReader(CONFIG_PATH.toFile())) {
