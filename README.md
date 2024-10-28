@@ -1,8 +1,8 @@
 [RU](https://github.com/FanyaOff/TabTPS/blob/main/README_RU.md) | [EN](https://github.com/FanyaOff/TabTPS/blob/main/README.md)
 
-# TabTPS
+# ForgeTPS
 
-TabTPS is a Minecraft mod that adds server performance information to the player list (Tab menu) header and footer.
+ForgeTPS is a Minecraft mod that adds server performance information to the player list (Tab menu) header and footer.
 
 ## Placeholders
 
@@ -12,7 +12,7 @@ Available placeholders for customization:
 
 ## Configuration
 
-The mod configuration is located in the `tabtps.json` file in the `config` folder.
+The mod configuration is located in the `forgetps.json` file in the `config` folder.
 
 Default configuration example:
 ```json
