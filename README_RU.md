@@ -1,8 +1,8 @@
 [RU](https://github.com/FanyaOff/TabTPS/blob/main/README_RU.md) | [EN](https://github.com/FanyaOff/TabTPS/blob/main/README.md)
 
-# TabTPS
+# ForgeTPS
 
-TabTPS - мод для Minecraft, который добавляет информацию о производительности сервера в список игроков
+ForgeTPS - мод для Minecraft, который добавляет информацию о производительности сервера в список игроков
 
 ## Плейсхолдеры
 
@@ -12,7 +12,7 @@ TabTPS - мод для Minecraft, который добавляет информ
 
 ## Конфигурация
 
-Конфигурация мода находится в файле `tabtps.json` в папке `config`.
+Конфигурация мода находится в файле `forgetps.json` в папке `config`.
 
 Пример конфигурации по умолчанию:
 ```json
