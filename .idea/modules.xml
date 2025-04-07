@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TabTPS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TabTPS.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TabTPS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TabTPS.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.TabTPS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.TabTPS.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.fanya.TabTPS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.fanya.TabTPS.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projects.TabTPS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/projects.TabTPS.test.iml" />
     </modules>
   </component>
 </project>

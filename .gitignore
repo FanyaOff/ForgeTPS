@@ -1,40 +1,73 @@
-# gradle
+# Minecraft Forge specific
+/run/
+/logs/
+/.gradle/
+/build/
+/out/
+/bin/
+/classes/
 
-.gradle/
-build/
-out/
-classes/
+# Minecraft runtime files
+/minecraft/
+/mods/
+/config/
+/saves/
+/screenshots/
+/crash-reports/
 
-# eclipse
+# Forge MDK
+/src/generated/
 
-*.launch
+# Eclipse (if you switch between IDEs)
+/.settings/
+/.classpath
+/.project
+/.metadata/
 
-# idea
-
-.idea/
+# IntelliJ IDEA specific
+/.idea/
 *.iml
+*.iws
 *.ipr
 *.iws
+.idea_modules/
+/shelf/
+/workspace.xml
+/tasks.xml
+/.idea/workspace.xml
+/.idea/modules.xml
+/.idea/libraries/
+/.idea/jarRepositories.xml
+/out/
 
-# vscode
+# Compiled class files
+*.class
 
-.settings/
-.vscode/
-bin/
-.classpath
-.project
+# Log files
+*.log
 
-# macos
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-*.DS_Store
+# Virtual machine crash logs
+hs_err_pid*
 
-# fabric
+# MacOS
+.DS_Store
 
-run/
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# java
+# Linux
+*~
 
-hs_err_*.log
-replay_*.log
-*.hprof
-*.jfr
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar
